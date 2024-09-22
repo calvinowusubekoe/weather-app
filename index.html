@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/logo.png" alt="App Logo"> 
+        </div>
+
+        <h1>Weather App</h1>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
+
+        <!-- Weather Information -->
+        <div class="weather-info" id="weatherInfo">
+            <h2 id="cityName"></h2>
+            <img id="weatherIcon" src="images/cloud.png" alt="Weather Icon" style="display: none;">
+            <img id="weatherIcon" src="images/clear.png" alt="Weather Icon" style="display: none;">
+            <img id="weatherIcon" src="images/mist.png" alt="Weather Icon" style="display: none;">
+            <img id="weatherIcon" src="images/rain.png" alt="Weather Icon" style="display: none;">
+            <img id="weatherIcon" src="images/snow.png" alt="Weather Icon" style="display: none;">
+            <img id="weatherIcon" src="images/404.png" alt="Weather Icon" style="display: none;">
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
