@@ -17,6 +17,22 @@ body {
     height: 100vh;
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
 
 .container {
     background-color: rgba(255, 255, 255, 2);
@@ -37,7 +53,7 @@ body {
 
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: #d1d1d1;
 }
 
